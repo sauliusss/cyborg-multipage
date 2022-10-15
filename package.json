@@ -1,0 +1,24 @@
+{
+  "name": "cyborg-multipage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauliusss/cyborg-multipage.git"
+  },
+  "keywords": [],
+  "author": "Saulius <sjsaulius@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauliusss/cyborg-multipage/issues"
+  },
+  "homepage": "https://github.com/sauliusss/cyborg-multipage#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
