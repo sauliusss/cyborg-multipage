@@ -1,5 +1,29 @@
 /* header */
-.type input {
-  width: 200px;
+
+.input_container {
+  display: flex;
+}
+
+form {
+  max-width: 400px;
+}
+
+.icon {
+  text-align: center;
+  position: absolute;
+  left: 30px;
+  top: 65px;
+  padding-right: 50px;
+}
+
+.form_icon input {
+  width: 250px;
   height: 40px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+.form_icon::placeholder {
+  right: 450px;
 }
