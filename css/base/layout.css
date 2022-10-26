@@ -5,7 +5,7 @@
 }
 
 form {
-  max-width: 400px;
+  max-width: 4000px;
 }
 
 .icon {
@@ -22,8 +22,10 @@ form {
   border-radius: 50px;
   border: none;
   outline: none;
+  color: antiquewhite;
 }
 
 .form_icon::placeholder {
-  right: 450px;
+  text-align: center;
+  color: aqua;
 }
