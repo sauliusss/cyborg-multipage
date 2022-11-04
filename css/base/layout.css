@@ -2,8 +2,14 @@
 
 .header {
   display: flex;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
+}
+
+.logo {
+  border-right: solid 1px #666;
+  padding-right: 50px;
 }
 
 .input_container {
@@ -17,9 +23,9 @@ form {
 
 input {
   width: 230px;
-  height: 60px;
+  height: 50px;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   outline: none;
   background-color: #27292a;
@@ -28,7 +34,7 @@ input {
 }
 
 input:focus {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 
 i {
@@ -36,13 +42,15 @@ i {
   font-size: 16px;
   width: 20px;
   height: 20px;
-  left: 20px;
-  top: 23px;
+  left: 25px;
+  top: 18px;
   color: #666;
 }
 
 .meniu {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -53,22 +61,39 @@ i {
   text-align: center;
 }
 
-.btn a {
+.meniu a {
   text-decoration: none;
   cursor: pointer;
   color: #666;
 }
 
-.btn a:hover {
+.meniu a:hover {
   color: #e75e8d;
 }
 
 .btn:nth-child(1) {
-  color: #5ee7a0;
+  color: #e75e8d;
 }
 
 .btn:nth-child(5) {
   background-color: #27292a;
-  padding: 10px 30px;
+  padding: 5px 10px 5px 20px;
+  border-radius: 20px;
+}
+
+.btn:nth-child(5) img {
+  padding-left: 5px;
+  border-radius: 20px;
+}
+
+.btn:nth-child(5) img,
+.btn:nth-child(5) span {
+  vertical-align: middle;
+}
+
+.btn:nth-child(5):hover {
+  background-color: #e75e8d;
+  color: #fff;
+  padding: 5px 10px 5px 20px;
   border-radius: 20px;
 }
