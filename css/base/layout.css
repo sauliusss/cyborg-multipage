@@ -6,21 +6,18 @@
   justify-content: space-around;
   align-items: center;
 }
-
-.logo {
-  border-right: solid 1px #666;
+.logo a {
+  display: flex;
+  border-right: solid 1px #27292a;
   padding-right: 50px;
 }
-
 .input_container {
   display: flex;
 }
-
 form {
   position: relative;
   align-content: center;
 }
-
 input {
   width: 230px;
   height: 50px;
@@ -32,11 +29,9 @@ input {
   color: #666;
   padding: 0px 15px 0px 50px !important;
 }
-
 input:focus {
   border: 1px solid #fff;
 }
-
 i {
   position: absolute;
   font-size: 16px;
@@ -46,13 +41,11 @@ i {
   top: 18px;
   color: #666;
 }
-
 .meniu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .btn {
   margin-right: 30px;
   font-size: 14px;
@@ -60,40 +53,62 @@ i {
   background-color: transparent;
   text-align: center;
 }
-
 .meniu a {
   text-decoration: none;
   cursor: pointer;
   color: #666;
 }
-
 .meniu a:hover {
   color: #e75e8d;
 }
-
 .btn:nth-child(1) {
   color: #e75e8d;
 }
-
 .btn:nth-child(5) {
   background-color: #27292a;
   padding: 5px 10px 5px 20px;
   border-radius: 20px;
 }
-
 .btn:nth-child(5) img {
   padding-left: 5px;
   border-radius: 20px;
 }
-
 .btn:nth-child(5) img,
 .btn:nth-child(5) span {
   vertical-align: middle;
 }
-
 .btn:nth-child(5):hover {
   background-color: #e75e8d;
   color: #fff;
   padding: 5px 10px 5px 20px;
   border-radius: 20px;
+}
+
+/* main */
+body > main {
+  background-color: #27292a;
+  margin-top: 50px;
+}
+
+/* welcome */
+
+.welcome {
+  display: flex;
+  background-image: url("../../img/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.description p {
+  color: #fff;
+  font-size: 20px;
+}
+.description h1 {
+  color: #fff;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.description h1 span {
+  color: #e75e8d;
 }
