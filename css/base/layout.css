@@ -740,21 +740,29 @@ i {
 }
 
 /* main */
-body > main {
+.background {
+  display: flex;
+  padding: 50px 70px;
   background-color: #27292a;
-  margin-top: 50px;
+  border-radius: 25px;
 }
 
 /* welcome */
-.welcome {
-  width: 100%;
-}
 
-.background {
-  display: flex;
-  height: 500px;
+.welcome {
+  height: 400px;
+  width: 100%;
   background-image: url("../../img/banner-bg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 25px;
+}
+
+.welcome > .description {
+  width: 50%;
+  padding-top: 70px;
+  padding-left: 60px;
 }
 
 .description p {
@@ -763,9 +771,10 @@ body > main {
   font-size: 20px;
 }
 .description h1 {
-  color: #fff;
+  line-height: 60px;
   font-size: 45px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .description h1 span {
