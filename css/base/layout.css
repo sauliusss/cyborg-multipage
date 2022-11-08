@@ -663,8 +663,8 @@
 }
 .logo a {
   display: flex;
-  border-right: solid 1px #27292a;
   padding-right: 50px;
+  border-right: solid 1px #27292a;
 }
 .input_container {
   display: flex;
@@ -676,24 +676,24 @@ form {
 input {
   width: 230px;
   height: 50px;
-  border-radius: 50px;
+  padding: 0px 15px 0px 50px !important;
   font-size: 14px;
-  border: none;
-  outline: none;
   background-color: #27292a;
   color: #666;
-  padding: 0px 15px 0px 50px !important;
+  border-radius: 50px;
+  border: none;
+  outline: none;
 }
 input:focus {
   border: 1px solid #fff;
 }
 i {
   position: absolute;
-  font-size: 16px;
   width: 20px;
   height: 20px;
   left: 25px;
   top: 18px;
+  font-size: 16px;
   color: #666;
 }
 .meniu {
@@ -704,14 +704,14 @@ i {
 .btn {
   margin-right: 30px;
   font-size: 14px;
-  border: none;
-  background-color: transparent;
   text-align: center;
+  background-color: transparent;
+  border: none;
 }
 .meniu a {
   text-decoration: none;
-  cursor: pointer;
   color: #666;
+  cursor: pointer;
 }
 .meniu a:hover {
   color: #e75e8d;
@@ -720,8 +720,8 @@ i {
   color: #e75e8d;
 }
 .btn:nth-child(5) {
-  background-color: #27292a;
   padding: 5px 10px 5px 20px;
+  background-color: #27292a;
   border-radius: 20px;
 }
 .btn:nth-child(5) img {
@@ -733,9 +733,9 @@ i {
   vertical-align: middle;
 }
 .btn:nth-child(5):hover {
+  padding: 5px 10px 5px 20px;
   background-color: #e75e8d;
   color: #fff;
-  padding: 5px 10px 5px 20px;
   border-radius: 20px;
 }
 
@@ -767,8 +767,8 @@ i {
 
 .description p {
   margin-bottom: 20px;
-  color: #fff;
   font-size: 20px;
+  color: #fff;
 }
 .description h1 {
   line-height: 60px;
@@ -776,7 +776,42 @@ i {
   text-transform: uppercase;
   color: #fff;
 }
-
 .description h1 span {
   color: #e75e8d;
+}
+
+/* most_popular section */
+.black_background {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #1f2122;
+  border-radius: 25px;
+}
+
+h3.title {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #e75e8d;
+}
+
+h3.title span {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.lighter-background {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  background-color: #27292a;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.lighter-background img {
+  width: 195px;
+  height: 150px;
+  padding-top: 20px;
+  border-radius: 35px 35px 25px 25px;
 }
