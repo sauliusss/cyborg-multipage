@@ -757,13 +757,11 @@ form i {
   background-position: center center;
   border-radius: 25px;
 }
-
 .welcome > .description {
   width: 50%;
   padding-top: 70px;
   padding-left: 60px;
 }
-
 .description p {
   margin-bottom: 20px;
   font-size: 20px;
@@ -787,42 +785,35 @@ form i {
   background-color: #1f2122;
   border-radius: 25px;
 }
-
 h3.title {
   font-size: 30px;
   text-transform: capitalize;
   color: #e75e8d;
 }
-
 h3.title span {
   text-decoration: underline;
   color: #fff;
 }
-
 .lighter-background {
   background-color: #27292a;
   border-radius: 25px;
 }
-
 .block {
   display: inline-block;
   margin-top: 30px;
   margin-right: 20px;
   padding: 30px 20px 20px 20px;
 }
-
 .block img {
   width: 195px;
   height: 150px;
   border-radius: 35px 20px;
 }
-
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .text-white {
   width: 100%;
   margin-top: 20px;
@@ -833,7 +824,6 @@ h3.title span {
 }
 .text-white > i {
   display: flex;
-
   justify-content: center;
   float: right;
   color: yellow;
@@ -856,24 +846,37 @@ h3.title span {
   float: right;
   color: #e75e8d;
 }
-
 .text-no-bold i > span {
   margin-left: 5px;
   margin-top: 3px;
   font-size: 12px;
   color: #fff;
 }
-
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .center > .button {
   display: flex;
-  margin-top: -25px;
   width: 180px;
+  margin-top: -25px;
   text-align: center;
   z-index: 10;
+}
+
+/* gaming_library section */
+
+.row-block > .text {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+.row-block .text > .text-white {
+  width: 5%;
+}
+
+.row-block .text > .text-no-bold {
+  width: 5%;
 }
