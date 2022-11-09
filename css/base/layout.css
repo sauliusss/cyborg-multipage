@@ -783,7 +783,7 @@ form i {
 
 .black_background {
   margin-top: 50px;
-  padding: 30px;
+  padding: 30px 71px 50px 71px;
   background-color: #1f2122;
   border-radius: 25px;
 }
@@ -820,7 +820,6 @@ h3.title span {
 .text {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
 }
 
@@ -865,7 +864,16 @@ h3.title span {
   color: #fff;
 }
 
-.background > .button {
-  width: 170px;
-  margin-left: 500px;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center > .button {
+  display: flex;
+  margin-top: -25px;
+  width: 180px;
+  text-align: center;
+  z-index: 10;
 }
