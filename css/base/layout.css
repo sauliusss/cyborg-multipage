@@ -880,3 +880,10 @@ h3.title span {
 .text > .text-white {
   margin-top: 0;
 }
+
+/* footer */
+body > footer {
+  margin: 20px 0;
+  text-align: center;
+  color: rgb(191, 47, 47);
+}
