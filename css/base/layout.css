@@ -34,7 +34,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 60px 20px;
+  padding: 60px 20px 30px 20px;
 }
 
 .container > .row {
@@ -882,8 +882,18 @@ h3.title span {
 }
 
 /* footer */
+
 body > footer {
-  margin: 20px 0;
+  margin-bottom: 30px;
+}
+
+footer > p {
   text-align: center;
-  color: rgb(191, 47, 47);
+  font-weight: 400;
+  color: #fff;
+}
+
+footer p > span:hover {
+  color: #e75e8d;
+  cursor: pointer;
 }
