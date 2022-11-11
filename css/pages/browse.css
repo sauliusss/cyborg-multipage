@@ -1,0 +1,47 @@
+.featured-games.black_background {
+  margin: 0;
+  padding: 0 30px;
+}
+
+.featured-games > h3.title {
+  padding-top: 20px;
+}
+
+.featured-games .block-content > .block {
+  position: relative;
+  overflow: hidden;
+  margin: 20px 20px 20px 0px;
+  padding: 0;
+}
+
+.img-overlay > .overlay {
+  position: absolute;
+  bottom: -100px;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #008cba;
+}
+
+.img-overlay > img {
+  width: 220px;
+  height: 350px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.overlay > p {
+  background-color: rgba(31, 33, 34, 0.95);
+  display: inline-block;
+  color: #ec6090;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.img-overlay img:hover .overlay {
+  opacity: 0;
+  z-index: 100;
+}
