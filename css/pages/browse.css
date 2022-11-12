@@ -1,41 +1,42 @@
-.featured-games.black_background {
+.feature-game {
+  display: flex;
+  position: relative;
+}
+.left-side {
+  display: flex;
+  flex-direction: row;
+}
+.featured-games.black-background {
   position: relative;
   margin: 0;
   padding: 0 30px;
 }
-
 .title {
   display: flex;
   justify-content: space-between;
 }
-
 .title > h3 {
   float: left;
   padding-top: 20px;
 }
-
 .featured-games .block-content > .block {
   position: relative;
   margin: 20px 20px 20px 0px;
   padding: 0;
 }
-
 .img-overlay > .img-over {
   width: 220px;
   height: 350px;
   margin-bottom: 20px;
   border-radius: 35px 20px;
 }
-
 .block:hover > .img-over {
   opacity: 1;
 }
-
 .img-overlay:hover .overlay {
   color: rgb(17, 33, 33);
   opacity: 1;
 }
-
 .overlay {
   position: absolute;
   top: 305px;
@@ -43,7 +44,6 @@
   opacity: 0;
   transition: 0.4s all;
 }
-
 .overlay p {
   background-color: #27292a;
   color: #e75e8d;
@@ -51,4 +51,49 @@
   padding: 5px 20px;
   border: none;
   border-radius: 30px;
+}
+
+/* top downloaded section */
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.right-side > .black-background {
+  padding: 0 60px 0 30px;
+  margin: 0 0 0 25px;
+}
+.row-block {
+  display: flex;
+  padding: 25px 0;
+  align-items: center;
+}
+.row-block > .text {
+  margin-right: 0;
+}
+.text > .item {
+  display: flex;
+}
+.item > .text-white {
+  margin: 0 10px 0 0;
+}
+.download {
+  width: 45px;
+  height: 45px;
+  margin-left: 50px;
+  padding: 12px;
+  text-align: center;
+  background-color: #27292a;
+  color: #e75e8d;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.row-content > .link {
+  padding: 25px 90px;
+}
+.row-content > .link a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #e75e8d;
 }

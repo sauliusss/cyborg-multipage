@@ -1,5 +1,5 @@
 :root {
-  --half-gap: 10px;
+  /* --half-gap: 10px; */
   --gap: calc(var(--half-gap) * 2);
   --col-1: calc(100% / 12 - var(--gap));
   --col-gap: calc(var(--col-1) + var(--gap));
@@ -43,6 +43,7 @@
 }
 
 .container > .row > [class*="col-"] {
+  float: left;
   margin: 0 var(--half-gap);
 }
 
@@ -552,7 +553,7 @@
 
 @media (min-width: 1400px) {
   .container > .row {
-    width: 1320px;
+    width: 1350px;
   }
 
   .container > .row > .col-xl-1 {
@@ -779,8 +780,8 @@ form i {
 
 /* most_popular section */
 
-.black_background {
-  width: 100%;
+.black-background {
+  /* width: 100%; */
   margin-top: 50px;
   padding: 30px 71px 50px 71px;
   background-color: #1f2122;
