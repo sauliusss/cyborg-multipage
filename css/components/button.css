@@ -39,3 +39,24 @@
   color: #e75e8d;
   border: none;
 }
+
+/* browse page featured-games section  */
+
+.buttons {
+  display: flex;
+  float: right;
+  padding-top: 40px;
+  color: #666;
+}
+.left {
+  margin-right: 2px;
+}
+.right {
+  margin-left: 2px;
+}
+.left:hover:hover {
+  color: #e75e8d;
+}
+.right:hover {
+  color: #e75e8d;
+}

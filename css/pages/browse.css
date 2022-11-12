@@ -1,47 +1,54 @@
 .featured-games.black_background {
+  position: relative;
   margin: 0;
   padding: 0 30px;
 }
 
-.featured-games > h3.title {
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title > h3 {
+  float: left;
   padding-top: 20px;
 }
 
 .featured-games .block-content > .block {
   position: relative;
-  overflow: hidden;
   margin: 20px 20px 20px 0px;
   padding: 0;
 }
 
-.img-overlay > .overlay {
-  position: absolute;
-  bottom: -100px;
-  text-align: center;
-  width: 100%;
-  opacity: 0;
-  visibility: hidden;
-  background-color: #008cba;
-}
-
-.img-overlay > img {
+.img-overlay > .img-over {
   width: 220px;
   height: 350px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 35px 20px;
 }
 
-.overlay > p {
-  background-color: rgba(31, 33, 34, 0.95);
-  display: inline-block;
-  color: #ec6090;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 10px 20px;
-  border-radius: 25px;
+.block:hover > .img-over {
+  opacity: 1;
 }
 
-.img-overlay img:hover .overlay {
+.img-overlay:hover .overlay {
+  color: rgb(17, 33, 33);
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 305px;
+  left: 30px;
   opacity: 0;
-  z-index: 100;
+  transition: 0.4s all;
+}
+
+.overlay p {
+  background-color: #27292a;
+  color: #e75e8d;
+  font-size: 14px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 30px;
 }
