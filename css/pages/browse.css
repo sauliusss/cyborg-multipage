@@ -175,32 +175,56 @@
 }
 
 .row-block .block .img-overlay .overlay > .hover1 {
-  display: flex;
   position: absolute;
   width: 120px;
-  height: 50px;
+  height: 40px;
   padding: 10px 0;
   align-content: center;
   justify-items: center;
-  top: 90px;
-  left: 130px;
+  top: 70px;
+  left: 150px;
 }
 
 .row-block .block .img-overlay .overlay > .hover1 p {
-  margin: 0;
+  background-color: #e75e8d;
+  color: #fff;
 }
 
 .row-block .block .img-overlay .overlay > .hover1 i {
-  margin: 0;
-  padding: 0;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .row-block .block .img-overlay .overlay > .hover2 {
   position: absolute;
-  left: 200px;
+  top: -130px;
+  left: 210px;
+}
+
+.row-block .block .img-overlay .overlay > .hover2 p {
+  background-color: #e75e8d;
+  color: #fff;
 }
 
 .row-block .block .img-overlay .overlay > .hover3 {
   position: absolute;
-  left: 400px;
+  top: 70px;
+  left: 30px;
+  width: 100px;
+  height: 40px;
+  padding: 10px 0;
+}
+
+.row-block .block .img-overlay .overlay > .hover3 p {
+  background-color: #e75e8d;
+  color: #fff;
+}
+.row-block .block .img-overlay .overlay > .hover3 i {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.childd > .row-block:nth-child(4) {
+  left: 30px;
+  width: 100px;
 }
