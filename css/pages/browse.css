@@ -166,3 +166,41 @@
 .live > .center a {
   text-decoration: none;
 }
+
+/* most-popular section */
+
+.row-block .block > .img-overlay img {
+  width: 270px;
+  height: 270px;
+}
+
+.row-block .block .img-overlay .overlay > .hover1 {
+  display: flex;
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  padding: 10px 0;
+  align-content: center;
+  justify-items: center;
+  top: 90px;
+  left: 130px;
+}
+
+.row-block .block .img-overlay .overlay > .hover1 p {
+  margin: 0;
+}
+
+.row-block .block .img-overlay .overlay > .hover1 i {
+  margin: 0;
+  padding: 0;
+}
+
+.row-block .block .img-overlay .overlay > .hover2 {
+  position: absolute;
+  left: 200px;
+}
+
+.row-block .block .img-overlay .overlay > .hover3 {
+  position: absolute;
+  left: 400px;
+}
