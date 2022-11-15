@@ -1,0 +1,11 @@
+.browse > .btn:nth-child(1) {
+  color: #666;
+}
+
+.browse > .btn:nth-child(1):hover {
+  color: #e75e8d;
+}
+
+.browse > .btn:nth-child(2) {
+  color: #e75e8d;
+}
