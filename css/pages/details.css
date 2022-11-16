@@ -49,3 +49,98 @@
   color: #e75e8d;
   border-radius: 25px;
 }
+
+/* Your Gaming Library */
+
+.background > .title {
+  margin: 50px 0;
+  justify-content: center;
+}
+
+.background > .title h3 {
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.width > .block-content {
+  display: flex;
+}
+
+.width .block-content > .block {
+  width: 50%;
+}
+
+.block > .symbols {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.symbols > .symbol {
+  text-align: center;
+}
+
+.symbols .symbol > .fa-star {
+  color: yellow;
+}
+
+.symbols > .symbol i {
+  color: #e75e8d;
+}
+
+.symbols .symbol > .text-white {
+  margin: 0;
+  font-size: 12px;
+}
+
+.width > .only-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.only-img > .block {
+  margin: 40px 0;
+  padding: 0;
+}
+
+.only-img > .block img {
+  width: 300px;
+  height: 250px;
+}
+
+.width > .text-no-bold a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.width > .text-no-bold a:hover {
+  color: #fff3cd;
+}
+
+.width > .center {
+  margin-top: 60px;
+}
+
+.width .center > .button {
+  width: 100%;
+  background-color: transparent;
+  color: #e75e8d;
+  border: 1px solid #e75e8d;
+}
+
+.width .center > .button:hover {
+  background-color: #fff;
+  color: #e75e8d;
+  border: 1px solid #e75e8d;
+}
+
+.related-games .row-content .row-block > .text {
+  display: flex;
+  width: 50%;
+}
+
+.related-games > .row-content {
+  width: 50%;
+}
