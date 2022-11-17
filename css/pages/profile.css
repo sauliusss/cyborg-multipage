@@ -19,3 +19,33 @@
 .person-profile {
   display: flex;
 }
+
+.offline {
+  width: 38%;
+  margin-left: 20px;
+  padding-top: 50px;
+}
+
+.offline > .text-white {
+  margin: 12px 0;
+  font-size: 24px;
+}
+
+.offline > .button {
+  width: 100px;
+  text-decoration: none;
+}
+
+.offline > .transparent {
+  width: 170px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #e75e8d;
+  border: 1px solid #e75e8d;
+}
+
+.offline > .transparent:hover {
+  background-color: #fff;
+  color: #e75e8d;
+  border: 1px solid #e75e8d;
+}
