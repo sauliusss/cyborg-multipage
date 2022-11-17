@@ -1,0 +1,21 @@
+.profile > .btn:nth-child(4) {
+  color: #666;
+}
+
+.profile > .btn:nth-child(4):hover {
+  color: #e75e8d;
+}
+
+.profile > .btn:nth-child(5) {
+  color: #fff;
+}
+
+.profile > .btn:nth-child(5) {
+  background-color: #e75e8d;
+}
+
+/* person-profile section  */
+
+.person-profile {
+  display: flex;
+}
