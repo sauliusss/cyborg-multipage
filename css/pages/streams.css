@@ -40,3 +40,14 @@
 .right-side .streamers .row-content .btn-margin2 .item > .button {
   margin-left: 30px;
 }
+
+/* most-popular section */
+
+.live-stream > .black-background {
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.streamers .block-content .items .item > .text-white {
+  font-weight: 800;
+}
