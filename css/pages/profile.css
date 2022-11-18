@@ -109,3 +109,13 @@
 .clips .center > .button {
   text-decoration: none;
 }
+
+/* library section  */
+
+.library .row-content .row-block .text > .text-white {
+  font-size: 15px;
+}
+
+.library .row-content .row-block .text > .text-no-bold {
+  font-size: 15px;
+}
