@@ -86,3 +86,26 @@
 .set > .no-border {
   border: none;
 }
+
+/* clips section */
+
+.clips .block-content .block .text > .text-white {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.clips .block-content .block .text > .text-white i {
+  color: #e75e8d;
+}
+
+.clips .block-content .block .text > .text-white span {
+  font-weight: 100;
+}
+
+.clips > .center {
+  margin-top: 70px;
+}
+
+.clips .center > .button {
+  text-decoration: none;
+}

@@ -60,3 +60,20 @@
 .right:hover {
   color: #e75e8d;
 }
+
+/* clips section */
+
+.clip-btn {
+  position: relative;
+}
+.clip-btn i {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  width: 40px;
+  height: 40px;
+  padding: 12px 8px 8px 16px;
+  background-color: #fff;
+  color: #e75e8d;
+  border-radius: 25px;
+}
