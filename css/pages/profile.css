@@ -18,10 +18,16 @@
 
 .person-profile {
   display: flex;
+  border-bottom: solid 1px #555;
+  padding-bottom: 30px;
+}
+
+.person-profile img {
+  border-radius: 25px;
 }
 
 .offline {
-  width: 38%;
+  width: 48%;
   margin-left: 20px;
   padding-top: 50px;
 }
@@ -48,4 +54,35 @@
   background-color: #fff;
   color: #e75e8d;
   border: 1px solid #e75e8d;
+}
+
+.person-profile > .background {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  padding: 0;
+  margin: 45px 0 0 0;
+}
+
+.set > .text {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  padding: 5px;
+  margin: 30px;
+  border-bottom: solid 1px #555;
+}
+
+.set .text > .text-no-bold {
+  width: 100%;
+  float: left;
+}
+
+.set .text > .color-text {
+  float: right;
+  color: #e75e8d;
+}
+
+.set > .no-border {
+  border: none;
 }
