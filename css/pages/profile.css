@@ -119,3 +119,9 @@
 .library .row-content .row-block .text > .text-no-bold {
   font-size: 15px;
 }
+
+.library .row-block:nth-child(2) > .button:nth-child(6) {
+  background-color: transparent;
+  color: #666;
+  border: 1px solid #666;
+}
