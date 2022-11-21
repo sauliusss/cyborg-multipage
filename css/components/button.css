@@ -19,6 +19,12 @@
   color: #e75e8d;
 }
 
+@media (max-width: 768px) {
+  .description > .button {
+    margin-top: 70px;
+  }
+}
+
 /* gaming_library section button */
 
 .row-block > .button {
@@ -45,7 +51,7 @@
 .buttons {
   display: flex;
   float: right;
-  padding-top: 40px;
+  padding-top: 50px;
   color: #666;
 }
 .left {

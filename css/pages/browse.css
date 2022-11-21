@@ -23,13 +23,14 @@
   margin: 0;
   padding: 0 30px;
 }
-.title {
+
+.custom {
   display: flex;
   justify-content: space-between;
 }
-.title > h3 {
+
+.title > .buttons {
   float: left;
-  padding-top: 20px;
 }
 .featured-games .block-content > .block {
   position: relative;
@@ -75,6 +76,11 @@
   padding: 0 60px 0 30px;
   margin: 0 0 0 25px;
 }
+
+.top-downloaded > .title {
+  font-size: 30px;
+}
+
 .top-downloaded .row-content > .row-block {
   display: flex;
   padding: 25px 0;

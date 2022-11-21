@@ -741,7 +741,6 @@ form i {
 
 /* main */
 .background {
-  display: flex;
   padding: 50px 70px;
   background-color: #27292a;
   border-radius: 25px;
@@ -759,6 +758,7 @@ form i {
   border-radius: 25px;
 }
 .welcome > .description {
+  display: inline-block;
   width: 50%;
   padding-top: 70px;
   padding-left: 60px;
@@ -783,17 +783,18 @@ form i {
 .black-background {
   /* width: 100%; */
   margin-top: 50px;
-  padding: 30px 71px 50px 71px;
+  padding: 10px 60px 50px 60px;
   background-color: #1f2122;
   border-radius: 25px;
 }
-.title > h3 {
+.title {
+  margin: 30px 0;
   font-size: 35px;
   font-weight: 600;
   text-transform: capitalize;
   color: #e75e8d;
 }
-.title h3 > span {
+span {
   text-decoration: underline;
   color: #fff;
 }
@@ -801,9 +802,19 @@ form i {
   background-color: #27292a;
   border-radius: 25px;
 }
+
+.block-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-content:nth-child(2) {
+  margin-bottom: 30px;
+}
+
 .block {
   display: inline-block;
-  margin-top: 30px;
   margin-right: 20px;
   padding: 30px 20px 20px 20px;
 }
@@ -816,6 +827,7 @@ form i {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 20px;
 }
 .text-white {
   margin-top: 20px;
@@ -834,6 +846,7 @@ form i {
   margin-top: 3px;
   font-size: 12px;
   font-weight: 700;
+  text-decoration: none;
   color: #fff;
 }
 .text-no-bold {
@@ -849,6 +862,7 @@ form i {
   margin-left: 5px;
   margin-top: 3px;
   font-size: 12px;
+  text-decoration: none;
   color: #fff;
 }
 .center {
@@ -862,6 +876,106 @@ form i {
   margin-top: -25px;
   text-align: center;
   z-index: 10;
+}
+
+@media (max-width: 576px) {
+  .background {
+    padding: 0;
+  }
+  .background .welcome > .description {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .background .welcome > .description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+  .description h1 {
+    line-height: 40px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .welcome > .description {
+    width: 75%;
+    padding-top: 70px;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .block-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block-content:nth-child(2) {
+    margin-bottom: 30px;
+  }
+
+  .block {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 30px 20px 20px 20px;
+  }
+  .block img {
+    width: 160px;
+    height: 120px;
+    border-radius: 35px 20px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .text-white {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .text-white > i {
+    display: flex;
+    justify-content: center;
+    float: right;
+    color: yellow;
+  }
+  .text-white i > span {
+    margin-left: 5px;
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+  }
+  .text-no-bold {
+    font-size: 16px;
+  }
+  .text-no-bold > i {
+    display: flex;
+    justify-content: center;
+    float: right;
+    color: #e75e8d;
+  }
+  .text-no-bold i > span {
+    margin-left: 5px;
+    margin-top: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+@media (max-width: 1400px) {
 }
 
 /* gaming_library section */
