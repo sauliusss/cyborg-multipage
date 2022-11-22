@@ -177,7 +177,7 @@
 
 .most-popular > .black-background {
   height: 530px;
-  padding: 0;
+  padding: 0 0 80px 0px;
 }
 
 .popular > .title {
@@ -295,14 +295,113 @@
 }
 
 @media (max-width: 992px) {
+  .feature-game {
+    display: block;
+  }
+
+  .left-side {
+    display: block;
+  }
+
+  .left-side .featured-games .block-content > .block img {
+    width: 162px;
+    height: 320px;
+  }
+
+  .block-content .block .img-overlay > .overlay {
+    top: 270px;
+    left: 30px;
+  }
+
+  .left-side .featured-games .block-content .block .text > .text-white {
+    font-size: 16px;
+  }
+
+  .left-side .featured-games .block-content .block .text > .text-no-bold {
+    font-size: 13px;
+  }
+
+  .size > .row-block img {
+    width: 17%;
+    margin-right: 90px;
+  }
 }
 
 @media (max-width: 1200px) {
+  .featured-games .block-content > .block img {
+    width: 140px;
+    height: 320px;
+  }
+
+  .block .img-overlay > .overlay {
+    top: 270px;
+    left: 9px;
+  }
+
+  .block .img-overlay .overlay p {
+    padding: 5px 8px;
+  }
+
+  .featured-games .block-content .block > .text {
+    margin-top: 0;
+  }
+
+  .featured-games .block-content .block .text > .text-white {
+    font-size: 11px;
+  }
+
+  .featured-games .block-content .block .text > .text-no-bold {
+    font-size: 11px;
+  }
+
+  .featured-games .block-content .block .text > .text-no-bold i {
+    font-size: 10px;
+  }
+
+  .block-content .hover > .img-overlay img {
+    width: 175px;
+    height: 160px;
+  }
+
+  .overlay p {
+    font-size: 12px;
+  }
+
+  .hover > .img-overlay > .overlay p:nth-child(1) i {
+    margin: 3px 5px 0 0;
+    font-size: 15px;
+  }
+
+  .block-content .hover > .img-overlay > .overlay p:nth-child(1) {
+    width: 85px;
+    top: -150px;
+    left: 70px;
+  }
+
+  .block-content .hover > .img-overlay > .overlay p:nth-child(2) {
+    width: 65px;
+    top: -149px;
+    left: -8px;
+  }
+
+  .block-content .hover > .img-overlay > .overlay p:nth-child(3) {
+    width: 49px;
+    top: -261px;
+    left: 110px;
+  }
+
+  .items > .item p:nth-child(1) {
+    font-size: 12px;
+  }
+
+  .items .item > .text-white {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 1400px) {
   .left-side > .featured-games {
-    padding: 0;
+    padding: 0 15px;
   }
 
   .img-overlay > .img-over {
