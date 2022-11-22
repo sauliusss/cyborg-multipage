@@ -54,7 +54,7 @@
   position: absolute;
   top: 305px;
   left: 30px;
-  opacity: 0;
+  /* opacity: 0; */
   transition: 0.4s all;
 }
 .overlay p {
@@ -286,4 +286,58 @@
 .most-popular .center > .button {
   width: 190px;
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1400px) {
+  .left-side > .featured-games {
+    padding: 0;
+  }
+
+  .img-overlay > .img-over {
+    width: 200px;
+    height: 350px;
+  }
+
+  .right-side > .black-background {
+    padding: 0 11px 10px 30px;
+  }
+
+  .row-content > .link {
+    padding: 25px 80px;
+  }
+
+  .hover > .img-overlay img {
+    width: 226px;
+    height: 241px;
+  }
+
+  .hover > .img-overlay > .overlay p:nth-child(1) {
+    width: 112px;
+    top: -110px;
+    left: 70px;
+  }
+
+  .hover > .img-overlay > .overlay p:nth-child(2) {
+    width: 92px;
+    top: -110px;
+    left: -28px;
+  }
+
+  .hover > .img-overlay > .overlay p:nth-child(3) {
+    width: 64px;
+    top: -298px;
+    left: 125px;
+  }
 }
