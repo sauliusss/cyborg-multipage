@@ -7,6 +7,7 @@
   font-size: 14px;
   align-items: center;
   text-transform: capitalize;
+  text-decoration: none;
   justify-content: center;
   background-color: #e75e8d;
   color: #fff;
@@ -22,6 +23,12 @@
 @media (max-width: 768px) {
   .description > .button {
     margin-top: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .row-block > .button {
+    width: 100%;
   }
 }
 
