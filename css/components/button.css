@@ -74,6 +74,12 @@
   color: #e75e8d;
 }
 
+@media (max-width: 576px) {
+  .buttons {
+    padding-top: 75px;
+  }
+}
+
 /* clips section */
 
 .clip-btn {
