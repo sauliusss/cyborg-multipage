@@ -54,7 +54,7 @@
   position: absolute;
   top: 305px;
   left: 30px;
-  /* opacity: 0; */
+  opacity: 0;
   transition: 0.4s all;
 }
 .overlay p {

@@ -23,6 +23,8 @@
 }
 
 .person-profile img {
+  margin: 20px 0 0 0;
+  width: 50%;
   border-radius: 25px;
 }
 
@@ -57,7 +59,7 @@
 }
 
 .person-profile > .background {
-  display: inline-block;
+  display: block;
   width: 400px;
   height: 300px;
   padding: 0;
@@ -67,9 +69,10 @@
 .set > .text {
   display: flex;
   flex-direction: row;
-  font-size: 14px;
   padding: 5px;
   margin: 30px;
+  align-items: center;
+  font-size: 14px;
   border-bottom: solid 1px #555;
 }
 
@@ -124,4 +127,94 @@
   background-color: transparent;
   color: #666;
   border: 1px solid #666;
+}
+
+@media (max-width: 576px) {
+  .width > .row-block {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .clips {
+    text-align: center;
+  }
+
+  .black-background .clips > .block-content {
+    display: flex;
+  }
+}
+
+@media (max-width: 992px) {
+  .row .person-profile > .background {
+    width: 100%;
+    margin: 45px 0 0 0;
+  }
+
+  .background .black-background > .person-profile img {
+    width: 100%;
+    margin: 30px 0 0 0;
+  }
+
+  .person-profile {
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .offline {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .offline > .button {
+    width: 100%;
+  }
+
+  .offline > .text-white {
+    font-size: 30px;
+  }
+
+  .offline > .text-no-bold {
+    font-size: 20px;
+  }
+
+  .width > .row-block img {
+    width: 80%;
+    margin-right: 0;
+  }
+
+  .width .row-block > .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .margin-right > .black-background {
+    padding: 10px 20px 50px 20px;
+  }
+
+  .black-background > .person-profile img {
+    width: 30%;
+    height: 30%;
+    margin: 60px 0 0 0;
+  }
+
+  .person-profile > .background {
+    width: 330px;
+    height: 284px;
+
+    margin: 45px 26px 0 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .person-profile img {
+    width: 35%;
+    height: 35%;
+    margin: 40px 0 0 0;
+  }
 }

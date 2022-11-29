@@ -728,8 +728,7 @@ form i {
   padding-left: 5px;
   border-radius: 20px;
 }
-.btn:nth-child(5) img,
-.btn:nth-child(5) span {
+.btn:nth-child(5) img {
   vertical-align: middle;
 }
 .btn:nth-child(5):hover {
