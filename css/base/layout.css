@@ -657,6 +657,8 @@
 
 .header {
   display: flex;
+  position: sticky;
+  top: 0;
   width: 100%;
   justify-content: space-around;
   align-items: center;
@@ -736,6 +738,15 @@ form i {
   background-color: #e75e8d;
   color: #fff;
   border-radius: 20px;
+}
+
+/* hamburger meniu */
+.header .hamburger {
+  justify-content: space-between;
+}
+
+.hamburger {
+  font-size: 30px;
 }
 
 /* main */
@@ -1012,6 +1023,52 @@ footer p > span:hover {
 }
 
 @media (max-width: 992px) {
+  .header {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+  }
+
+  .meniu {
+    display: grid;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    top
+  }
+
+  .logo a {
+    border: none;
+  }
+
+  .meniu {
+    /* display: none; */
+  }
+
+  .meniu > .btn {
+    padding: 20px;
+    border-bottom: 1px solid #666;
+  }
+
+  .input_container {
+    display: none;
+  }
+
+  .btn:nth-child(5) {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .btn:nth-child(5) img {
+    display: none;
+  }
+
+  .btn:nth-child(5):hover {
+    padding: 20px;
+    background-color: #fff;
+    color: #e75e8d;
+  }
+
   .welcome > .description {
     width: 75%;
     padding-top: 70px;
@@ -1073,6 +1130,11 @@ footer p > span:hover {
 
   .row-block > .text:nth-child(2) {
     margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .header .hamburger {
   }
 }
 
