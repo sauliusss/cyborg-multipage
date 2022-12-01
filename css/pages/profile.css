@@ -146,6 +146,11 @@
 }
 
 @media (max-width: 992px) {
+  .profile > .btn:nth-child(5) {
+    background-color: #fff;
+    color: #e75e8d;
+  }
+
   .row .person-profile > .background {
     width: 100%;
     margin: 45px 0 0 0;

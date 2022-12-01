@@ -209,11 +209,6 @@
     margin: 25px 0 0 0;
   }
 
-  .width .only-img > .block img {
-    width: 267px;
-    height: 249px;
-  }
-
   .width > .text-no-bold {
     margin-top: 30px;
   }
@@ -221,8 +216,8 @@
 
 @media (max-width: 1200px) {
   .only-img > .block img {
-    width: 237px;
-    height: 218px;
+    width: 100%;
+    height: 100%;
   }
 }
 

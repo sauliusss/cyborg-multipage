@@ -700,7 +700,7 @@
 }
 .meniu {
   display: flex;
-  position: absolute;
+
   align-items: center;
 }
 .btn {
@@ -972,7 +972,8 @@ footer p > span:hover {
   }
 
   .row-content > .row-block img {
-    margin-right: 0;
+    margin: 0 10px 0 0;
+    width: 100%;
   }
 
   .row-content .row-block > .text {
@@ -984,7 +985,7 @@ footer p > span:hover {
     margin-left: 10px;
   }
 
-  .row-content .row-block .text > .text-no-bold {
+  .black-background .row-content .margin .text > .text-no-bold {
     margin-left: 10px;
   }
 }
@@ -1071,7 +1072,7 @@ footer p > span:hover {
   }
 
   .header input:checked ~ .meniu {
-    transform: translateY(50%);
+    transform: translateY(58%);
   }
 
   .header input:checked ~ .navbar-toggler {
@@ -1084,19 +1085,14 @@ footer p > span:hover {
   }
 
   input:checked ~ .navbar-toggler .bar:nth-child(2) {
-  /* .input_container {
     display: none;
-  } */
+  }
 
   input:checked ~ .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
   }
 
   .header .input-container > form input {
-    display: none;
-  }
-
-  .input-container > form i {
     display: none;
   }
 
@@ -1123,6 +1119,10 @@ footer p > span:hover {
     padding: 20px;
     background-color: #fff;
     color: #e75e8d;
+  }
+
+  .background {
+    margin: 170px 0 0 0;
   }
 
   .welcome > .description {
