@@ -312,8 +312,8 @@
 }
 
 @media (max-width: 768px) {
-  .background .most-popular > .black-background {
-    height: 1670px;
+  .container .row .background .size > .black-background {
+    height: 1705px;
   }
 
   .most-popular .popular .block-content .hover > .img-overlay img {
@@ -356,6 +356,7 @@
 
 @media (max-width: 992px) {
   .feature-game {
+    margin-top: 150px;
     display: block;
   }
 

@@ -658,7 +658,7 @@
 .header {
   display: flex;
   position: sticky;
-  top: 0;
+
   width: 100%;
   justify-content: space-around;
   align-items: center;
@@ -668,14 +668,14 @@
   padding-right: 50px;
   border-right: solid 1px #27292a;
 }
-.input_container {
+.input-container {
   display: flex;
 }
-form {
+.input-container form {
   position: relative;
   align-content: center;
 }
-input {
+.input-container input {
   width: 230px;
   height: 50px;
   padding: 0px 15px 0px 50px !important;
@@ -686,10 +686,10 @@ input {
   border: none;
   outline: none;
 }
-input:focus {
+.input-container input:focus {
   border: 1px solid #fff;
 }
-form i {
+.input-container form i {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -701,7 +701,6 @@ form i {
 .meniu {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .btn {
   margin-right: 30px;
@@ -710,6 +709,7 @@ form i {
   background-color: transparent;
   border: none;
 }
+
 .meniu a {
   text-decoration: none;
   color: #666;
@@ -740,13 +740,28 @@ form i {
   border-radius: 20px;
 }
 
-/* hamburger meniu */
-.header .hamburger {
-  justify-content: space-between;
+.header .navbar-toggler {
+  display: none;
+  height: min-content;
+  margin: 18px 10px 5px 0;
+  cursor: pointer;
 }
 
-.hamburger {
-  font-size: 30px;
+.header .navbar-toggler .bar {
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background: #e75e8d;
+  border-radius: 10%;
+  transition: 0.4s;
+}
+
+.header .input-container > form input {
+  display: flex;
+}
+
+.header input {
+  display: none;
 }
 
 /* main */
@@ -1030,19 +1045,22 @@ footer p > span:hover {
   }
 
   .meniu {
+    width: 100%;
     display: grid;
     position: absolute;
+    align-items: center;
+    transform: translateY(-100%);
+    z-index: -1;
+    transition: 0.6s;
     background-color: #fff;
-    width: 100%;
-    top
+  }
+
+  .header .navbar-toggler {
+    display: grid !important;
   }
 
   .logo a {
     border: none;
-  }
-
-  .meniu {
-    /* display: none; */
   }
 
   .meniu > .btn {
@@ -1050,17 +1068,52 @@ footer p > span:hover {
     border-bottom: 1px solid #666;
   }
 
-  .input_container {
+  .header input:checked ~ .meniu {
+    transform: translateY(50%);
+  }
+
+  .header input:checked ~ .navbar-toggler {
+    margin-top: 20px;
+  }
+
+  input:checked ~ .navbar-toggler .bar:nth-child(1) {
+    position: absolute;
+    transform: rotate(45deg);
+  }
+
+  input:checked ~ .navbar-toggler .bar:nth-child(2) {
     display: none;
+  }
+
+  input:checked ~ .navbar-toggler .bar:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
+  .header .input-container > form input {
+    display: none;
+  }
+
+  .input-container > form i {
+    display: none;
+  }
+
+  .input-container {
+    display: none;
+  }
+
+  .btn {
+    margin: 0;
   }
 
   .btn:nth-child(5) {
     padding: 20px;
     background-color: #fff;
+    border: none;
   }
 
   .btn:nth-child(5) img {
     display: none;
+    border: none;
   }
 
   .btn:nth-child(5):hover {
@@ -1130,11 +1183,6 @@ footer p > span:hover {
 
   .row-block > .text:nth-child(2) {
     margin-left: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .header .hamburger {
   }
 }
 
