@@ -700,6 +700,7 @@
 }
 .meniu {
   display: flex;
+  position: absolute;
   align-items: center;
 }
 .btn {
@@ -1064,6 +1065,7 @@ footer p > span:hover {
   }
 
   .meniu > .btn {
+    width: 100%;
     padding: 20px;
     border-bottom: 1px solid #666;
   }
@@ -1082,8 +1084,9 @@ footer p > span:hover {
   }
 
   input:checked ~ .navbar-toggler .bar:nth-child(2) {
+  /* .input_container {
     display: none;
-  }
+  } */
 
   input:checked ~ .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
