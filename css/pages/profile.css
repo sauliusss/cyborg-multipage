@@ -1,30 +1,30 @@
 .profile > .btn:nth-child(4) {
-  color: #666;
+  color: var(--light);
 }
 
 .profile > .btn:nth-child(4):hover {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .profile > .btn:nth-child(5) {
-  color: #fff;
+  color: var(--white);
 }
 
 .profile > .btn:nth-child(5) {
-  background-color: #e75e8d;
+  background-color: var(--pink);
 }
 
 /* person-profile section  */
 
 .person-profile {
   display: flex;
-  border-bottom: solid 1px #555;
   padding-bottom: 30px;
+  border-bottom: solid 1px var(--light);
 }
 
 .person-profile img {
-  margin: 20px 0 0 0;
   width: 50%;
+  margin: 20px 0 0 0;
   border-radius: 25px;
 }
 
@@ -48,14 +48,14 @@
   width: 170px;
   text-decoration: none;
   background-color: transparent;
-  color: #e75e8d;
-  border: 1px solid #e75e8d;
+  color: var(--pink);
+  border: 1px solid var(--pink);
 }
 
 .offline > .transparent:hover {
-  background-color: #fff;
-  color: #e75e8d;
-  border: 1px solid #e75e8d;
+  background-color: var(--white);
+  color: var(--pink);
+  border: 1px solid var(--pink);
 }
 
 .person-profile > .background {
@@ -73,7 +73,7 @@
   margin: 30px;
   align-items: center;
   font-size: 14px;
-  border-bottom: solid 1px #555;
+  border-bottom: solid 1px var(--light);
 }
 
 .set .text > .text-no-bold {
@@ -83,7 +83,7 @@
 
 .set .text > .color-text {
   float: right;
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .set > .no-border {
@@ -98,7 +98,7 @@
 }
 
 .clips .block-content .block .text > .text-white i {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .clips .block-content .block .text > .text-white span {
@@ -125,8 +125,8 @@
 
 .library .row-block:nth-child(2) > .button:nth-child(6) {
   background-color: transparent;
-  color: #666;
-  border: 1px solid #666;
+  color: var(--light);
+  border: 1px solid var(--light);
 }
 
 @media (max-width: 576px) {
@@ -147,8 +147,8 @@
 
 @media (max-width: 992px) {
   .profile > .btn:nth-child(5) {
-    background-color: #fff;
-    color: #e75e8d;
+    background-color: var(--white);
+    color: var(--pink);
   }
 
   .row .person-profile > .background {
@@ -211,7 +211,6 @@
   .person-profile > .background {
     width: 330px;
     height: 284px;
-
     margin: 45px 26px 0 0;
   }
 }

@@ -1,13 +1,13 @@
 .browse > .btn:nth-child(1) {
-  color: #666;
+  color: var(--light);
 }
 
 .browse > .btn:nth-child(1):hover {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .browse > .btn:nth-child(2) {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .feature-game {
@@ -59,11 +59,11 @@
 }
 .overlay p {
   background-color: #27292a;
-  color: #e75e8d;
   font-size: 14px;
   padding: 5px 20px;
   border: none;
   border-radius: 30px;
+  color: var(--pink);
 }
 
 /* top downloaded section */
@@ -101,10 +101,10 @@
   margin-left: 50px;
   padding: 12px;
   text-align: center;
-  background-color: #27292a;
-  color: #e75e8d;
   border-radius: 30px;
   cursor: pointer;
+  background-color: #27292a;
+  color: var(--pink);
 }
 .row-content > .link {
   padding: 25px 90px;
@@ -112,7 +112,7 @@
 .row-content > .link a {
   text-decoration: none;
   text-transform: capitalize;
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 /* live-stream section */
@@ -127,9 +127,9 @@
 }
 
 .block-section {
-  border: 1px solid #555;
-  border-radius: 25px;
   width: calc(50% - 20px);
+  border: 1px solid var(--light);
+  border-radius: 25px;
 }
 
 .block-section > .icon img {
@@ -143,12 +143,12 @@
 
 .block-section a {
   text-decoration: none;
-  color: #fff;
   font-weight: 300;
+  color: var(--white);
 }
 
 .block-section a:hover {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .block-items {
@@ -204,14 +204,14 @@
 }
 
 .hover > .img-overlay > .overlay p {
-  background-color: #e75e8d;
-  color: #fff;
   text-align: center;
+  background-color: var(--pink);
+  color: var(--white);
 }
 
 .hover > .img-overlay > .overlay a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
 }
 
 .hover > .img-overlay > .overlay p:nth-child(1) {
@@ -235,7 +235,6 @@
 
 .hover > .img-overlay > .overlay p:nth-child(2) i {
   margin: 5px 5px 0 0;
-
   font-size: 15px;
 }
 
@@ -251,10 +250,10 @@
 }
 
 .items img {
-  border-radius: 25px;
   margin-right: 10px;
   max-width: 50px;
   max-height: 50px;
+  border-radius: 25px;
 }
 
 .items > .item {
@@ -263,7 +262,7 @@
 }
 
 .items > .item p:nth-child(1) {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .items > .item p:nth-child(1) i {
@@ -273,8 +272,8 @@
   padding: 3px;
   justify-content: center;
   align-content: center;
-  background-color: #e75e8d;
-  color: #fff;
+  background-color: var(--pink);
+  color: var(--white);
   border-radius: 10px;
 }
 

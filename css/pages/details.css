@@ -1,17 +1,17 @@
 .details > .btn:nth-child(1) {
-  color: #666;
+  color: var(--light);
 }
 
 .details > .btn:nth-child(2) {
-  color: #666;
+  color: var(--light);
 }
 
 .details > .btn:nth-child(2):hover {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .details > .btn:nth-child(3) {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 /* details-images section */
@@ -43,14 +43,14 @@
 .details-images > .right i {
   display: block;
   position: absolute;
-  top: 50%;
-  left: 50%;
   width: 40px;
   height: 40px;
+  top: 50%;
+  left: 50%;
   padding: 12px 8px 8px 16px;
-  background-color: #fff;
-  color: #e75e8d;
   transform: translate(-25%, 25%);
+  background-color: var(--white);
+  color: var(--pink);
   border-radius: 25px;
 }
 
@@ -58,11 +58,11 @@
 
 .background > .title {
   margin: 50px 0;
-  font-size: 45px;
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  font-size: 45px;
+  color: var(--white);
 }
 
 .width > .block-content {
@@ -88,11 +88,11 @@
 }
 
 .symbols .symbol > .fa-star {
-  color: yellow;
+  color: var(--yellow);
 }
 
 .symbols > .symbol i {
-  color: #e75e8d;
+  color: var(--pink);
 }
 
 .symbols .symbol > .text-white {
@@ -121,7 +121,7 @@
 }
 
 .width > .text-no-bold a:hover {
-  color: #fff3cd;
+  color: var(--white) 3cd;
 }
 
 .width > .center {
@@ -131,14 +131,14 @@
 .width .center > .button {
   width: 100%;
   background-color: transparent;
-  color: #e75e8d;
-  border: 1px solid #e75e8d;
+  color: var(--pink);
+  border: 1px solid var(--pink);
 }
 
 .width .center > .button:hover {
-  background-color: #fff;
-  color: #e75e8d;
-  border: 1px solid #e75e8d;
+  background-color: var(--white);
+  color: var(--pink);
+  border: 1px solid var(--pink);
 }
 
 .related-games .row-content .row-block > .text {
