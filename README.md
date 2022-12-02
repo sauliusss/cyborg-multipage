@@ -15,7 +15,6 @@ Site published at: https://templatemo.com/live/templatemo_579_cyborg_gaming
 
 - Github pages
 - responsive design
-- form
 - icons
 - other good/better/best (choose wisely) stuff
 
