@@ -1,19 +1,15 @@
 .profile > .btn:nth-child(4) {
   color: var(--light);
 }
-
 .profile > .btn:nth-child(4):hover {
   color: var(--pink);
 }
-
 .profile > .btn:nth-child(5) {
   color: var(--white);
 }
-
 .profile > .btn:nth-child(5) {
   background-color: var(--pink);
 }
-
 /* person-profile section  */
 
 .person-profile {
@@ -21,29 +17,24 @@
   padding-bottom: 30px;
   border-bottom: solid 1px var(--light);
 }
-
 .person-profile img {
   width: 50%;
   margin: 20px 0 0 0;
   border-radius: 25px;
 }
-
 .offline {
   width: 48%;
   margin-left: 20px;
   padding-top: 50px;
 }
-
 .offline > .text-white {
   margin: 12px 0;
   font-size: 24px;
 }
-
 .offline > .button {
   width: 100px;
   text-decoration: none;
 }
-
 .offline > .transparent {
   width: 170px;
   text-decoration: none;
@@ -51,13 +42,11 @@
   color: var(--pink);
   border: 1px solid var(--pink);
 }
-
 .offline > .transparent:hover {
   background-color: var(--white);
   color: var(--pink);
   border: 1px solid var(--pink);
 }
-
 .person-profile > .background {
   display: block;
   width: 400px;
@@ -65,7 +54,6 @@
   padding: 0;
   margin: 45px 0 0 0;
 }
-
 .set > .text {
   display: flex;
   flex-direction: row;
@@ -75,40 +63,32 @@
   font-size: 14px;
   border-bottom: solid 1px var(--light);
 }
-
 .set .text > .text-no-bold {
   width: 100%;
   float: left;
 }
-
 .set .text > .color-text {
   float: right;
   color: var(--pink);
 }
-
 .set > .no-border {
   border: none;
 }
-
 /* clips section */
 
 .clips .block-content .block .text > .text-white {
   font-weight: 600;
   margin-top: 15px;
 }
-
 .clips .block-content .block .text > .text-white i {
   color: var(--pink);
 }
-
 .clips .block-content .block .text > .text-white span {
   font-weight: 100;
 }
-
 .clips > .center {
   margin-top: 70px;
 }
-
 .clips .center > .button {
   text-decoration: none;
 }
@@ -118,77 +98,62 @@
 .library .row-content .row-block .text > .text-white {
   font-size: 15px;
 }
-
 .library .row-content .row-block .text > .text-no-bold {
   font-size: 15px;
 }
-
 .library .row-block:nth-child(2) > .button:nth-child(6) {
   background-color: transparent;
   color: var(--light);
   border: 1px solid var(--light);
 }
-
 @media (max-width: 576px) {
   .width > .row-block {
     display: block;
   }
 }
-
 @media (max-width: 768px) {
   .clips {
     text-align: center;
   }
-
   .black-background .clips > .block-content {
     display: flex;
   }
 }
-
 @media (max-width: 992px) {
   .profile > .btn:nth-child(5) {
     background-color: var(--white);
     color: var(--pink);
   }
-
   .row .person-profile > .background {
     width: 100%;
     margin: 45px 0 0 0;
   }
-
   .background .black-background > .person-profile img {
     width: 100%;
     margin: 30px 0 0 0;
   }
-
   .person-profile {
     display: block;
     padding-bottom: 30px;
   }
-
   .offline {
     width: 100%;
     margin: 0;
     text-align: center;
   }
-
   .offline > .button {
     width: 100%;
   }
-
   .offline > .text-white {
     font-size: 30px;
   }
-
   .offline > .text-no-bold {
     font-size: 20px;
   }
-
   .width > .row-block img {
     width: 80%;
     margin-right: 0;
   }
-
   .width .row-block > .text {
     display: flex;
     flex-direction: column;
@@ -196,25 +161,21 @@
     margin: 20px 0 0 0;
   }
 }
-
 @media (max-width: 1200px) {
   .margin-right > .black-background {
     padding: 10px 20px 50px 20px;
   }
-
   .black-background > .person-profile img {
     width: 30%;
     height: 30%;
     margin: 60px 0 0 0;
   }
-
   .person-profile > .background {
     width: 330px;
     height: 284px;
     margin: 45px 26px 0 0;
   }
 }
-
 @media (max-width: 1400px) {
   .person-profile img {
     width: 35%;

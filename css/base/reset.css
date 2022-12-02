@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 body,
 body * {
   margin: 0;
@@ -11,12 +10,11 @@ body * {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #212529;
+  background-color: var(--dark);
 }
-
 p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   line-height: 1.8em;
-  color: #555;
+  color: var(--light);
 }

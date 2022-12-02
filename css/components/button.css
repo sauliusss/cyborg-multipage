@@ -9,47 +9,44 @@
   text-transform: capitalize;
   text-decoration: none;
   justify-content: center;
-  background-color: #e75e8d;
-  color: #fff;
+  background-color: var(--pink);
+  color: var(--white);
   border-radius: 30px;
   cursor: pointer;
   border: none;
 }
 .button:hover {
-  background-color: #fff;
-  color: #e75e8d;
+  background-color: var(--white);
+  color: var(--pink);
 }
-
 @media (max-width: 768px) {
   .description > .button {
     margin-top: 70px;
   }
 }
-
 @media (max-width: 576px) {
   .row-block > .button {
     width: 100%;
   }
 }
-
 /* gaming_library section button */
 
 .row-block > .button {
   margin-top: 15px;
   background-color: transparent;
-  color: #666;
-  border: 1px solid #666;
+  color: var(--light);
+  border: 1px solid var(--light);
   border-radius: 30px;
   cursor: pointer;
 }
 .row-block:nth-child(2) > .button:nth-child(6) {
   background-color: transparent;
-  color: #e75e8d;
-  border: 1px solid #e75e8d;
+  color: var(--pink);
+  border: 1px solid var(--pink);
 }
 .row-block:nth-child(2) > .button:nth-child(6):hover {
-  background-color: #fff;
-  color: #e75e8d;
+  background-color: var(--white);
+  color: var(--pink);
   border: none;
 }
 
@@ -59,7 +56,7 @@
   display: flex;
   float: right;
   padding-top: 50px;
-  color: #666;
+  color: var(--light);
 }
 .left {
   margin-right: 2px;
@@ -68,18 +65,16 @@
   margin-left: 2px;
 }
 .left:hover:hover {
-  color: #e75e8d;
+  color: var(--pink);
 }
 .right:hover {
-  color: #e75e8d;
+  color: var(--pink);
 }
-
 @media (max-width: 576px) {
   .buttons {
     padding-top: 75px;
   }
 }
-
 /* clips section */
 
 .clip-btn {
@@ -92,8 +87,8 @@
   width: 40px;
   height: 40px;
   padding: 12px 8px 8px 16px;
-  background-color: #fff;
-  color: #e75e8d;
-  border-radius: 25px;
   transform: translate(-50%, -25%);
+  background-color: var(--white);
+  color: var(--pink);
+  border-radius: 25px;
 }

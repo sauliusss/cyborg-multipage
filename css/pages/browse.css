@@ -1,19 +1,15 @@
 .browse > .btn:nth-child(1) {
   color: var(--light);
 }
-
 .browse > .btn:nth-child(1):hover {
   color: var(--pink);
 }
-
 .browse > .btn:nth-child(2) {
   color: var(--pink);
 }
-
 .feature-game {
   display: flex;
 }
-
 .left-side {
   display: flex;
   flex-direction: row;
@@ -23,12 +19,10 @@
   margin: 0;
   padding: 0 30px;
 }
-
 .custom {
   display: flex;
   justify-content: space-between;
 }
-
 .title > .buttons {
   float: left;
 }
@@ -76,11 +70,9 @@
   padding: 0 60px 0 30px;
   margin: 0 0 0 25px;
 }
-
 .top-downloaded > .title {
   font-size: 30px;
 }
-
 .top-downloaded .row-content > .row-block {
   display: flex;
   padding: 25px 0;
@@ -121,150 +113,121 @@
   margin: 30px 0;
   justify-content: center;
 }
-
 .live > .row-block {
   border: none;
 }
-
 .block-section {
   width: calc(50% - 20px);
   border: 1px solid var(--light);
   border-radius: 25px;
 }
-
 .block-section > .icon img {
   margin: 30px 0 30px 30px;
   border-radius: 45px;
 }
-
 .block-section:nth-child(2) {
   margin: 0 30px;
 }
-
 .block-section a {
   text-decoration: none;
   font-weight: 300;
   color: var(--white);
 }
-
 .block-section a:hover {
   color: var(--pink);
 }
-
 .block-items {
   margin: 0 0 0 30px;
 }
-
 .block-items > .text-white {
   margin: 0 0 15px 0;
   font-size: 20px;
 }
-
 .block-items > .text-no-bold {
   margin-bottom: 30px;
   font-size: 14px;
 }
-
 .live > .center {
   margin: 40px 0;
 }
-
 .live > .center a {
   text-decoration: none;
 }
-
 /* most-popular section */
 
 .most-popular > .black-background {
   height: 590px;
   padding: 0 0 80px 0px;
 }
-
 .popular > .title {
   padding-left: 30px;
 }
-
 .popular > .block-content {
   padding-left: 30px;
 }
-
 .popular .block-content > .block {
   padding: 0;
   margin: 20px 20px 0 0;
 }
-
 .hover {
   position: relative;
   width: 270px;
 }
-
 .hover > .img-overlay img {
   width: 270px;
   height: 270px;
 }
-
 .hover > .img-overlay > .overlay p {
   text-align: center;
   background-color: var(--pink);
   color: var(--white);
 }
-
 .hover > .img-overlay > .overlay a {
   text-decoration: none;
   color: var(--white);
 }
-
 .hover > .img-overlay > .overlay p:nth-child(1) {
   position: absolute;
   width: 120px;
   top: -80px;
   left: 110px;
 }
-
 .hover > .img-overlay > .overlay p:nth-child(1) i {
   margin: 5px 5px 0 0;
   font-size: 15px;
 }
-
 .hover > .img-overlay > .overlay p:nth-child(2) {
   position: absolute;
   width: 100px;
   top: -80px;
   left: -10px;
 }
-
 .hover > .img-overlay > .overlay p:nth-child(2) i {
   margin: 5px 5px 0 0;
   font-size: 15px;
 }
-
 .hover > .img-overlay > .overlay p:nth-child(3) {
   position: absolute;
   width: 70px;
   top: -300px;
   left: 160px;
 }
-
 .items {
   display: flex;
 }
-
 .items img {
   margin-right: 10px;
   max-width: 50px;
   max-height: 50px;
   border-radius: 25px;
 }
-
 .items > .item {
   display: flex;
   flex-direction: column;
 }
-
 .items > .item p:nth-child(1) {
   color: var(--pink);
 }
-
 .items > .item p:nth-child(1) i {
   width: 20px;
   height: 20px;
@@ -276,174 +239,137 @@
   color: var(--white);
   border-radius: 10px;
 }
-
 .item > .text-white {
   width: 100%;
   font-size: 20px;
 }
-
 .most-popular .center > .button {
   width: 190px;
   text-decoration: none;
 }
-
 @media (max-width: 576px) {
   .top-downloaded .size > .row-block img {
     margin-right: 30px;
   }
-
   .right-side .top-downloaded .size .row-block > .text {
     display: inline-block;
     margin: 0;
   }
-
   .row-content .row-block .text > .text-white {
     margin: 0;
   }
-
   .row-content .row-block .text > .text-no-bold {
     margin: 0;
   }
-
   .download {
     margin: 0 0 0 30px;
   }
 }
-
 @media (max-width: 768px) {
   .container .row .background .size > .black-background {
     height: 1705px;
   }
-
   .most-popular .popular .block-content .hover > .img-overlay img {
     width: 100%;
     height: 100%;
     margin-top: 20px;
   }
-
   .hover > .img-overlay > .overlay a {
     font-size: 14px;
   }
-
-  /* patvarkyti i margin */
   .hover > .img-overlay > .overlay a i {
     margin: 0;
   }
-
   .popular .block-content .hover > .img-overlay > .overlay p:nth-child(1) {
     width: 100px;
     top: -40px;
     left: 110px;
   }
-
   .popular .block-content .hover > .img-overlay > .overlay p:nth-child(2) {
     width: 76px;
     top: -40px;
     left: -18px;
   }
-
   .popular .block-content .hover > .img-overlay > .overlay p:nth-child(3) {
     width: 78px;
     top: -241px;
     left: 130px;
   }
-
   .hover .items {
     width: 100%;
   }
 }
-
 @media (max-width: 992px) {
   .feature-game {
     display: block;
   }
-
   .left-side {
     display: block;
   }
-
   .left-side .featured-games .block-content > .block img {
     width: 162px;
     height: 320px;
   }
-
   .block-content .block .img-overlay > .overlay {
     top: 270px;
     left: 30px;
   }
-
   .left-side .featured-games .block-content .block .text > .text-white {
     font-size: 16px;
   }
-
   .left-side .featured-games .block-content .block .text > .text-no-bold {
     font-size: 13px;
   }
-
   .feature-game .right-side > .black-background {
     padding: 0 15px;
     margin: 30px 0;
   }
-
   .size > .row-block img {
     width: 17%;
     margin-right: 90px;
   }
-
   .top-downloaded .size .row-block > .text {
     margin: 0 40px 0 0;
   }
-
   .row-block .block-section > .icon img {
     width: 60px;
   }
-
   .row .live > .row-block {
     padding: 0;
   }
-
   .row-block > .block-section {
     width: 100%;
     margin-bottom: 30px;
   }
-
   .block-section > .block-items {
     width: 85%;
   }
-
   .block-section:nth-child(2) {
     margin: 0 0 30px 0;
   }
-
   .popular > .block-content {
     padding: 0;
     align-items: unset;
   }
-
   .most-popular > .black-background {
     height: 683px;
     padding: 0;
   }
-
   .popular .block-content > .block {
     padding: 0px;
     margin: 0 0 0 20px;
   }
-
   .popular .block-content .hover > .img-overlay img {
     width: 214px;
     height: 160px;
   }
-
   .items {
     width: 70%;
   }
-
   .block-content > .block img {
     width: 140px;
     height: 100px;
   }
-
   .items img {
     margin-top: 10px;
   }
@@ -454,68 +380,54 @@
     width: 140px;
     height: 320px;
   }
-
   .block .img-overlay > .overlay {
     top: 270px;
     left: 9px;
   }
-
   .block .img-overlay .overlay p {
     padding: 5px 8px;
   }
-
   .featured-games .block-content .block > .text {
     margin-top: 0;
   }
-
   .featured-games .block-content .block .text > .text-white {
     font-size: 11px;
   }
-
   .featured-games .block-content .block .text > .text-no-bold {
     font-size: 11px;
   }
-
   .featured-games .block-content .block .text > .text-no-bold i {
     font-size: 10px;
   }
-
   .block-content .hover > .img-overlay img {
     width: 175px;
     height: 160px;
   }
-
   .overlay p {
     font-size: 12px;
   }
-
   .hover > .img-overlay > .overlay p:nth-child(1) i {
     margin: 3px 5px 0 0;
     font-size: 15px;
   }
-
   .block-content .hover > .img-overlay > .overlay p:nth-child(1) {
     width: 85px;
     top: -150px;
     left: 70px;
   }
-
   .block-content .hover > .img-overlay > .overlay p:nth-child(2) {
     width: 65px;
     top: -149px;
     left: -8px;
   }
-
   .block-content .hover > .img-overlay > .overlay p:nth-child(3) {
     width: 49px;
     top: -261px;
     left: 110px;
   }
-
   .items > .item p:nth-child(1) {
     font-size: 12px;
   }
-
   .items .item > .text-white {
     font-size: 15px;
   }
@@ -525,37 +437,30 @@
   .left-side > .featured-games {
     padding: 0 15px;
   }
-
   .img-overlay > .img-over {
     width: 200px;
     height: 350px;
   }
-
   .right-side > .black-background {
     padding: 0 11px 10px 30px;
   }
-
   .row-content > .link {
     padding: 25px 80px;
   }
-
   .hover > .img-overlay img {
     width: 226px;
     height: 241px;
   }
-
   .hover > .img-overlay > .overlay p:nth-child(1) {
     width: 112px;
     top: -110px;
     left: 70px;
   }
-
   .hover > .img-overlay > .overlay p:nth-child(2) {
     width: 92px;
     top: -110px;
     left: -28px;
   }
-
   .hover > .img-overlay > .overlay p:nth-child(3) {
     width: 64px;
     top: -298px;

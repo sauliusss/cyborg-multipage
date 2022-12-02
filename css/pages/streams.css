@@ -1,97 +1,77 @@
 .streams > .btn:nth-child(3) {
   color: var(--light);
 }
-
 .streams > .btn:nth-child(3):hover {
   color: var(--pink);
 }
-
 .streams > .btn:nth-child(4) {
   color: var(--pink);
 }
-
 .streamers .row-content > .row-block {
   padding: 25px 0;
 }
-
 .streamers .row-content .row-block > .text {
   margin-right: 5px;
 }
-
 .streamers .row-content .row-block .items > .item {
   flex-direction: row;
   align-items: center;
 }
-
 .streamers .row-content > .border {
   border: none;
 }
-
 .streamers .row-content .row-block .items .item > .button {
   width: 90px;
   height: 0;
   margin: 0 0 0 50px;
 }
-
 .right-side .streamers .row-content .btn-margin .item > .button {
   margin-left: 65px;
 }
-
 .right-side .streamers .row-content .btn-margin2 .item > .button {
   margin-left: 30px;
 }
-
 /* most-popular section */
 
 .live-stream > .black-background {
   height: 100%;
   padding-bottom: 40px;
 }
-
 .streamers .block-content .items .item > .text-white {
   font-weight: 800;
 }
-
 @media (max-width: 576px) {
   .row .background {
     padding: 50px 25px;
   }
-
   .row .background .most-popular > .black-background {
     height: 100%;
   }
-
   .feature-game .right-side .streamers .row-content .row-block > .text {
     margin-right: 6px;
   }
-
   .right-side .streamers .row-content .row-block .items img {
     margin: 10px 15px 0 0;
   }
-
   .right-side .streamers .row-content .row-block .items .item > .button {
     width: 90px;
     height: 0;
     margin: 0 0 0 9px;
   }
 }
-
 @media (max-width: 992px) {
   .streamers {
     display: inline-block;
     text-align: center;
     justify-items: center;
   }
-
   .streamers > .row-content {
     display: inline-block;
     align-content: center;
   }
-
   .right-side .streamers .row-content .row-block > .text {
     margin-right: 45px;
   }
-
   .streamers .row-content .row-block .items img {
     margin: 10px 28px 0 0;
   }
